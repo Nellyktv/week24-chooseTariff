@@ -1,0 +1,33 @@
+[{  "key":"1",
+    "name": "300",
+    "price": "300",
+    "speed": "10",
+    "theme_tariff": "theme_aquaTariff blocks_Tariff",
+    "theme_nameTariff": "theme_aquaNameTariff blocks_nameTariff"
+
+  },
+  { "key":"2",
+    "name": "450",
+    "price": "450",
+    "speed": "50",
+    "theme_tariff": "theme_greenTariff blocks_Tariff",
+    "theme_nameTariff": "theme_greenNameTariff blocks_nameTariff"
+
+  },
+  { "key":"3",
+    "name": "550",
+    "price": "550",
+    "speed": "100",
+    "theme_tariff": "theme_redTariff blocks_Tariff",
+    "theme_nameTariff": "theme_redNameTariff blocks_nameTariff"
+
+  },
+  { "key":"4",
+    "name": "1000",
+    "price": "1000",
+    "speed": "200",
+    "theme_tariff": "theme_blackTariff blocks_Tariff",
+    "theme_nameTariff": "theme_blackNameTariff blocks_nameTariff"
+
+  }
+]

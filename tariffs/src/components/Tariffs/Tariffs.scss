@@ -1,0 +1,130 @@
+$font_colorTariff:white;
+$font_colorSpeedAndContent:black;
+$backGroundColorSpeedAndContent:rgb(163, 158, 158);
+
+
+.container-tariff {
+    border: 1px solid white;
+    color: $font_colorTariff;
+    cursor: pointer;
+    font-style: italic;
+}
+
+.theme_aquaTariff {
+    background-color: rgb(36, 230, 230);
+}
+
+.theme_greenTariff {
+    background-color: rgb(73, 167, 73);
+}
+
+.theme_redTariff {
+    background-color: red;
+}
+
+.theme_blackTariff {
+    background-color: rgb(36, 32, 32);
+}
+
+
+
+
+.theme_aquaNameTariff {
+    background-color: rgb(39, 182, 182);
+}
+
+.theme_greenNameTariff {
+    background-color: rgb(72, 146, 72);
+
+}
+
+.theme_redNameTariff {
+    background-color: rgb(179, 29, 29);
+
+}
+
+.theme_blackNameTariff {
+    background-color: black;
+}
+
+
+
+.volumeTraffic {
+    color: $font_colorSpeedAndContent;
+    background-color: $backGroundColorSpeedAndContent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.blocks_Tariff {
+    border: 1px solid white;
+    font-size: 1.5em;
+}
+
+
+.blocks_nameTariff {
+
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.speedStyle {
+    color: $font_colorSpeedAndContent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(224, 217, 217);
+}
+
+.tariff_rub {
+    margin-top: 5%;
+    margin-left: -40%;
+    font-size: 0.7em;
+
+}
+
+.tariff_price {
+    font-size: 1.3em;
+    margin-left: -5%;
+    margin-top: -2%;
+
+}
+
+.tariff_month {
+    margin-top: -7%;
+    margin-left: 40%;
+    font-size: 0.7em;
+}
+
+.selected {
+    font-weight: bolder;
+    width: 25vw;
+    border: 3px solid rgb(226, 48, 4);
+}
+
+
+.pickButton {
+    align-self: flex-end;
+    min-height: 30px;
+    min-width: 100px;
+    border: 1px solid aquamarine;
+    border-radius: 10px;
+    background-image: linear-gradient(90deg, #e353ac, #2AA5A0);
+    font-style: italic;
+    color: rgb(199, 218, 27);
+    align-self: center;
+    margin-bottom: 5px;
+}
+
+.pickButton:hover {
+    cursor: pointer;
+    background-image: linear-gradient(90deg, #9653e3, #2AA5A0);
+    border: 1px solid #9653e3;
+
+}
